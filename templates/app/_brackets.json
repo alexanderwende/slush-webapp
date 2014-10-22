@@ -1,0 +1,20 @@
+{
+    "spaceUnits": 4,
+
+    "path": {
+
+        "node_modules/**": {
+            "linting.enabled": false
+        },
+
+        "bower_components/**": {
+            "linting.enabled": false
+        },
+
+        "dist/**": {
+            "linting.enabled": false
+        }
+    },
+
+    "jscodehints.inferenceTimeout": 30000
+}

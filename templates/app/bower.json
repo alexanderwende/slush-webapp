@@ -1,0 +1,21 @@
+{
+    "name": "<%= appName %>",
+    "version": "<%= appVersion %>",
+    "authors": [
+        "<%= authorName %> <<%= authorEmail %>>"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test"
+    ],
+    "dependencies": {
+        "less": "^1.7.5",
+        "normalize.css": "^3.0.2",
+        "system.js": "^0.9.3",
+        "traceur-runtime": "^0.0.72"
+    }
+}

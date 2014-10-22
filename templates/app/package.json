@@ -1,0 +1,33 @@
+{
+    "name": "<%= appName %>",
+    "version": "<%= appVersion %>",
+    "description": "<%= appDescription %>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "gulp test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://alexanderwende@bitbucket.org/alexanderwende/<%= appNameSlug %>.git"
+    },
+    "author": "<%= authorName %>",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.9.7",
+        "morgan": "^1.3.2"
+    },
+    "devDependencies": {
+        "chai": "^1.9.2",
+        "del": "^0.1.3",
+        "gulp": "^3.8.8",
+        "gulp-concat": "^2.4.1",
+        "gulp-html-replace": "^1.4.0",
+        "gulp-less": "^1.3.6",
+        "gulp-mocha": "^1.1.1",
+        "gulp-sourcemaps": "^1.2.4",
+        "gulp-uglify": "^1.0.1",
+        "systemjs": "^0.9.1",
+        "systemjs-builder": "^0.2.2"
+    }
+}
