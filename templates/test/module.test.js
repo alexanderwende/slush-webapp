@@ -13,7 +13,7 @@ describe('<%= moduleExport %>', function () {
 
     before(function (done) {
 
-        System.import('<%= modulePath %>')
+        System.import('./<%= modulePath %>')
             .then(function (module) {
                 <%= moduleExport %> = module.default;
                 done();
