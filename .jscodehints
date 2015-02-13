@@ -1,0 +1,12 @@
+{
+    "excluded-directories": [
+        "node_modules", 
+        "bower_components", 
+        "test", 
+        "dist"
+    ],
+    "excluded-files": [
+        "gulpfile.js", 
+        "server.js"
+    ]
+}
